@@ -1,0 +1,46 @@
+table ,th ,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin: 0 auto;
+    text-align: center;
+}
+.item{
+    border: 1px solid #000;
+    border-collapse: collapse;
+}
+.item1 {
+    grid-area: header; 
+}
+.item2 {
+    grid-area: sider; 
+}
+.item3 {
+    grid-area: main;
+    height: 200px;
+    text-align: center;
+}
+.item4 { 
+   grid-area: footer; 
+}
+
+.grid{
+    padding: 0px auto;
+    margin: 0 auto;
+    max-width: 1170px;
+ display: grid;
+ grid-template-areas:
+   'sider header header header header'
+   'sider main main main main'
+   'sider footer footer footer footer';
+ gap: 10px;
+ 
+ padding: 10px;
+ margin-top: 10px;
+}
+
+.grid div {
+ background-color: rgba(255, 255, 255, 0.8);
+ text-align: center;
+ padding: 20px 0;
+ font-size: 30px;
+}
