@@ -1,0 +1,170 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Sofia&display=swap');
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.header-container {
+    height: 100px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+
+.header--span {
+    font-size: 32px;
+    line-height: 37px;
+    margin: 0;
+    color: #000000;
+
+}
+
+.header--list li {
+    padding: 15px;
+
+    font-size: 24px;
+    line-height: 28px;
+    color: #837D87;
+}
+
+.header--list li:hover {
+    border: 1px solid #000;
+}
+
+.header--list {
+    display: flex;
+    list-style: none;
+    margin: 0;
+}
+
+.banner-container {
+    display: flex;
+    height: 730px;
+}
+
+.banner {
+    background: #2D2640;
+}
+
+.banner--text--hr,
+.main--hr {
+    margin-top: 120px;
+    width: 230px;
+}
+
+.banner--text--h1 {
+    width: 452px;
+    height: 164px;
+    padding-top: 100px;
+    font-size: 60px;
+    line-height: 82px;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+.banner--text--p {
+    padding-top: 120px;
+    width: 628px;
+    height: 72px;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+
+}
+
+.banner--text--btn {
+    margin-top: 120px;
+    width: 200px;
+    height: 50px;
+    border: 1px solid #fafafa;
+    color: #fafafa;
+    font-size: 24px;
+    line-height: 28px;
+    background: transparent;
+}
+
+.banner--img {
+    position: relative;
+    top: 150px;
+}
+
+.main--divs {
+    display: flex;
+    margin-top: 90px;
+    justify-content: space-between;
+    margin-bottom: 140px;
+}
+
+.main--divs--div {
+
+    width: 372px;
+    height: 250px;
+
+
+}
+
+.main--hr {
+    margin-top: 400px;
+    margin-bottom: 50px;
+}
+
+.main--span {
+    width: 393px;
+    height: 82px;
+    font-size: 60px;
+    line-height: 82px;
+    color: #2B272F;
+
+}
+
+.main--divs--div--span {
+    display: block;
+    width: 269px;
+    height: 48px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 48px;
+    color: #2B272F;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.main--divs--div--p {
+    width: 372px;
+    height: 72px;
+    font-size: 18px;
+    line-height: 24px;
+    color: #2B272F;
+
+}
+
+.add {
+    position: relative;
+    height: 304px;
+    background: #2D2640;
+    display: flex;
+    
+justify-content: space-between;
+padding-right: 100px;
+}
+.add--span{
+    margin-top: 100px;
+margin-left: 100px;
+font-family: 'DM Serif Display';
+font-style: normal;
+font-weight: 400;
+width: 440px;
+font-size: 50px;
+line-height: 55px;
+color: #FFFFFF;
+
+}
